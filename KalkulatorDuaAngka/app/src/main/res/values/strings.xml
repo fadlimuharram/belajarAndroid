@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kalkulator Dua Angka</string>
+    <string name="app_hasil">Hasil</string>
+    <string name="default_hasil">0</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.fadli.hallotoast.MainActivity">
+
+    <Button
+        android:id="@+id/btnToast"
+        android:text="@string/btn_label_toast"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:onClick="toastClick"/>
+
+    <TextView
+        android:id="@+id/valCount"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:text="@string/count_value"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="100sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorYellow"
+        android:layout_below="@id/btnToast"/>
+
+    <Button
+        android:layout_below="@id/valCount"
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_label_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="countClick"/>
+</RelativeLayout>

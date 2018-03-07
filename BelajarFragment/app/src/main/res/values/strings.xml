@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BelajarFragment</string>
+    <string name="title">Program Perhitungan Luas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

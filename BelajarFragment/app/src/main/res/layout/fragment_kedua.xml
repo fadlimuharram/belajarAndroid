@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.fadli.belajarfragment.KeduaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/persegipanjangJudul"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mencari Luas Segitiga" />
+
+    <EditText
+        android:id="@+id/alas"
+        android:inputType="numberDecimal"
+        android:hint="Masukan Alas"
+        android:layout_below="@id/persegipanjangJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:inputType="numberDecimal"
+        android:hint="Masukan Tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alas"/>
+    <Button
+        android:id="@+id/hitungsegitiga"
+        android:text="Hitung"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tinggi"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="0"
+        android:gravity="center"
+        android:textSize="80sp"
+        android:id="@+id/hasilsegitiga"
+        android:layout_below="@id/hitungsegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.fadli.kalkulatorduaangka.MainActivity">
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/angkapertama"
+        android:hint="Angka Pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/angkakedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Angka Kedua"
+        android:layout_below="@id/angkapertama"/>
+
+    <LinearLayout
+        android:id="@+id/daftarbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/angkakedua">
+        <Button
+            android:onClick="tambah"
+            android:layout_weight="1"
+            android:text="+"
+            android:id="@+id/btntambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="1"
+            android:onClick="kurang"
+            android:text="-"
+            android:id="@+id/btnkurang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="1"
+            android:text="X"
+            android:onClick="kali"
+            android:id="@+id/btnkali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_weight="1"
+            android:text="/"
+            android:onClick="bagi"
+            android:id="@+id/btnbagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:text="0.00"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:padding="120sp"
+        android:layout_below="@id/daftarbtn"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

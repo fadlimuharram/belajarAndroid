@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hallo Toast</string>
+    <string name="btn_label_toast">TOAST</string>
+    <string name="btn_label_count">COUNT</string>
+    <string name="count_value">0</string>
+    <string name="label_toast">Perhitung Saat Ini Yaitu : </string>
+</resources>

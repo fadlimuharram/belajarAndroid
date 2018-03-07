@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.fadli.holiday.BacaActivity">
+    <ImageView
+        android:id="@+id/bacaGambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/bacaDiUploaddesc"
+        android:text="di upload oleh : "
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/bacaGambar"/>
+    <TextView
+
+        android:id="@+id/bacaDiUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="@color/colorGray"
+        android:layout_toRightOf="@id/bacaDiUploaddesc"
+        android:layout_below="@id/bacaGambar"/>
+    <TextView
+        android:id="@+id/bacaParagraph"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bacaDiUpload"/>
+</RelativeLayout>

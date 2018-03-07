@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.fadli.hello.MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:text="Parsedow V1.7.0 Dirilis, Fix Masalah XSS"
+        android:textSize="30sp"
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/oleh"
+        android:text="oleh Fadli Muharram"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_below="@id/judul"
+        android:layout_marginBottom="20sp"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/oleh"
+        android:src="@drawable/linux_debian_brand_logo_spiral_93908_1366x768"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/gambar"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut purus quis ipsum facilisis imperdiet nec sed lacus. Praesent malesuada scelerisque sem sit amet vestibulum. Curabitur vel gravida erat, vel efficitur tellus. Sed in mi nec velit suscipit lobortis ac eget neque. Quisque turpis eros, pharetra non aliquet non, pellentesque in ante. Sed urna nunc, congue sit amet tempus ut, aliquet non lacus. Sed fringilla urna est, vel viverra lorem volutpat ut. Duis in risus est. Sed tristique auctor diam, ac blandit arcu congue ut. Nulla sit amet consequat tortor. Nullam rutrum augue in quam facilisis, eu porttitor justo varius. Vivamus finibus tortor sagittis molestie tempus. Nulla id massa vel nulla aliquet convallis. Vivamus ultricies ac elit vitae vehicula. Sed porttitor venenatis tincidunt. Donec quis varius massa."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
