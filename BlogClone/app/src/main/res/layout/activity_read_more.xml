@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fadli.blogclone.ReadMoreActivity">
+
+    <!---->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/readMoreCover"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:src="@drawable/ic_launcher_background"-->
+        <!--android:scaleType="centerCrop"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/readMoreTitle"-->
+        <!--android:layout_below="@id/readMoreCover"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:text="ini judul"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/readMoreOleh"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/readMoreTitle"-->
+        <!--android:text="fadli"/>-->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_below="@id/readMoreOleh"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--<TextView-->
+        <!--android:id="@+id/readmoreParagraph"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="asdasdasda asdas das das da ad adasds"/>-->
+    <!--</ScrollView>-->
+
+    <WebView
+        android:id="@+id/browser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

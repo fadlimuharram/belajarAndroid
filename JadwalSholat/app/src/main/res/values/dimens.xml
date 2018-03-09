@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="title_sholat">20sp</dimen>
+    <dimen name="item_sholat">12sp</dimen>
+</resources>
